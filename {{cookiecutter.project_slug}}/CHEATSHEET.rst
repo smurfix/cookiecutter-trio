@@ -20,7 +20,7 @@ might want to do to get started:
   add a LICENSE file, and update ``setup.py`` and ``README.rst`` to
   tell people your license choice.
 
-{% endif -%}
+{%- endif %}
 * Enable `Read the Docs <https://readthedocs.org>`__. (Note: this
   project contains a ``.readthedocs.yml`` file that should be enough
   to get things working.)
