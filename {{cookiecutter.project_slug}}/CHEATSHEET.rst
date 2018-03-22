@@ -50,7 +50,7 @@ Tips
 To run tests
 ------------
 
-* Install requirements: ``pip install -r test-requirements.txt``
+* Install requirements: ``pip install -r ci/test-requirements.txt``
   (possibly in a virtualenv)
 
 * Actually run the tests: ``pytest {{cookiecutter.package_name}}``
