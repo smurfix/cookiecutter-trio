@@ -34,6 +34,7 @@ setup(
         "Programming Language :: Python :: 3 :: Only",
         "Programming Language :: Python :: Implementation :: CPython",
         "Programming Language :: Python :: Implementation :: PyPy",
+        "Framework :: Trio",
         # COOKIECUTTER-TRIO-TODO: Consider adding trove classifiers for:
         #
         # - Development Status
