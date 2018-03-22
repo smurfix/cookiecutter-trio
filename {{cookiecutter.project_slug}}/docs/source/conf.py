@@ -30,6 +30,8 @@ nitpick_ignore = [
     ("py:obj", "bytes-like"),
 ]
 
+autodoc_inherit_docstrings = False
+
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -140,7 +142,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = '{{ cookiecutter.project_slug }}doc'
+htmlhelp_basename = '{{ cookiecutter.project_slug }}-doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
